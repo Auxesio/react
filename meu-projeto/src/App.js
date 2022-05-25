@@ -1,6 +1,6 @@
 import Frase from './components/Frase'
 import './App.css';
-import HelloWorld from './components/HelloWorld';
+import List from './components/List'
 
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <h1>Testando CSS</h1>\
       <Frase />
       <Frase />
+      <List />
     </div>
   );
 }
