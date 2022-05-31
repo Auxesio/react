@@ -4,9 +4,11 @@ function Saudacao({nome}) {
         return `Olá, ${algumNome}, tudo bem?`
     }
 
-    return <>
-        {nome && <p>{gerarSaudacao(nome)}</p>}
-    </>
+    return (
+        <>
+            {nome && <p>{gerarSaudacao(nome)}</p>}
+        </>
+    )
 }
 
 export default Saudacao
